@@ -1,13 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
 
-
 {% block content %}
-<p class="alert alert-dark" align="right">Hoje é, {{ now }}</p>
+<div class="container">
+    <p align="right">Hoje é, {{ now }}</p>
 
-<div>
+    <h1 class="alert alert-dark" align="center">Seja bem vindo!</h1>
 
-    <h1 align="center">Seja bem vindo!</h1>
+    <h4 class="alert alert-dark" align="justify">
+        O projeto tem como objetivo principal auxiliar o serviço de ação rua,
+        uma politica pública que constitui um conjunto de ações integradas que
+        vem mudando a realidade das pessoas em situação de rua. A proposta tem
+        como objetivo principal fazer a troca do papel e digitação para utilizarem a internet,
+        computadores, tablets e celulares. Realizando suas tarefas diárias, com agilidade em tempo real.</h4>
 
 </div>
 {% endblock content %}
